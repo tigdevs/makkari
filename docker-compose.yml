@@ -1,0 +1,15 @@
+version: '3'
+services:
+  tad:
+    image: postgres:9.6
+    container_name: 'postgres'
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=tadpgweb
+      - POSTGRES_USER=postgres
+      - TZ=GMT
+    volumes:
+      - ./repository_files/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 5432:5432
+    stdin_open: true

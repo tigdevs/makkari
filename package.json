@@ -1,0 +1,33 @@
+{
+  "name": "makkari",
+  "version": "1.0.0",
+  "main": "dist/makkari/makkari.js",
+  "repository": "https://github.com/nulldreams/makkari.git",
+  "author": "nulldreams <nulldreams@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --detectOpenHandles --forceExit"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/pg": "^7.14.4",
+    "pg": "^8.3.0",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.4.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "node"
+    ],
+    "rootDir": "tests",
+    "testRegex": ".spec.js$",
+    "coverageDirectory": "tests/coverage"
+  }
+}
