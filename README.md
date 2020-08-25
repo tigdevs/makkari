@@ -13,7 +13,7 @@
 
 > Makkari is a library developed in NodeJS that aims to execute multiple database queries using Worker Threads. In order to reach significant numbers, we created several workers which will execute queries in parallel. Initially Makkari was developed for internal projects, but we understand that it can be useful for other developers..
 
-To run the queries, we use some libraries known as pg, mysql, among others.
+To run the queries, we use some knowing libraries as pg, mysql, among others.
 
 ## Quick Start
 
