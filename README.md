@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-  <img alt="Build" src="https://github.com/nulldreams/makkari/workflows/build/badge.svg" />
-  <img alt="Test" src="https://github.com/nulldreams/makkari/workflows/test/badge.svg" />
+  <img alt="Build" src="https://github.com/tigdevs/makkari/workflows/build/badge.svg" />
+  <img alt="Test" src="https://github.com/tigdevs/makkari/workflows/test/badge.svg" />
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
