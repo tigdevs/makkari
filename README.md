@@ -15,26 +15,6 @@
 
 To run the queries, we use some libraries known as pg, mysql, among others.
 
-## Benchmarks (Send 50 queries and sleep for 5 seconds after execute then)
-
-| Library |                    Query                    |     Duration |
-| ------- | :-----------------------------------------: | -----------: |
-| pg      | select \* from example, pg_sleep(5) limit 1 |    4 minutes |
-| makkari | select \* from example, pg_sleep(5) limit 1 | 6.04 seconds |
-
-## Supported Databases
-
-| Database |     Status     |
-| -------- | :------------: |
-| pg       |    working     |
-| mysql    | in development |
-
-## Install
-
-```sh
-yarn add makkari
-```
-
 ## Quick Start
 
 ```javascript
@@ -62,6 +42,27 @@ const main = async () => {
 }
 
 main()
+```
+
+## Benchmarks
+> Send 50 queries and sleep for 5 seconds after execute then
+
+| Library |                    Query                    |     Duration |
+| ------- | :-----------------------------------------: | -----------: |
+| pg      | select \* from example, pg_sleep(5) limit 1 |    4 minutes |
+| makkari | select \* from example, pg_sleep(5) limit 1 | 6.04 seconds |
+
+## Supported Databases
+
+| Database |     Status     |
+| -------- | :------------: |
+| pg       |    working     |
+| mysql    | in development |
+
+## Install
+
+```sh
+yarn add makkari
 ```
 
 ## Run tests
