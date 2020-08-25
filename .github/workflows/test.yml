@@ -28,7 +28,7 @@ jobs:
         run: yarn
 
       - name: Create Table Example
-        run: node ./repository_files/createTable.js
+        run: node ./extra/createTable.js
 
       - name: Run Build
         run: yarn build
