@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./extra/logo.png" />
+  <img src="https://github.com/tigdevs/makkari/blob/master/extra/logo.png" />
 </p>
 
 <p align="center">
