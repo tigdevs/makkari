@@ -45,6 +45,7 @@ main()
 ```
 
 ## Benchmarks
+
 > Send 50 queries and sleep for 5 seconds after execute then
 
 | Library |                    Query                    |     Duration |
