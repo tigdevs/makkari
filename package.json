@@ -2,8 +2,8 @@
   "name": "makkari",
   "version": "1.0.0",
   "main": "dist/makkari/makkari.js",
-  "repository": "https://github.com/nulldreams/makkari.git",
-  "author": "nulldreams <nulldreams@gmail.com>",
+  "repository": "https://github.com/tigdevs/makkari.git",
+  "author": "tigdevs",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
