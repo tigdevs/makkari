@@ -11,7 +11,7 @@
   </a>
 </p>
 
-> Makkari is a library developed in NodeJS that aims to execute multiple database queries using Worker Threads. In order to reach significant numbers, we created several workers that will execute queries in parallel. Initially it was developed for internal projects, but we understand that it can be useful for the community.
+> Makkari is a library developed in NodeJS that aims to execute multiple database queries using Worker Threads. In order to reach significant numbers, we created several workers which will execute queries in parallel. Initially Makkari was developed for internal projects, but we understand that it can be useful for other developers..
 
 To run the queries, we use some libraries known as pg, mysql, among others.
 
@@ -76,7 +76,7 @@ yarn test
 
 You can contribute to Napa.js in following ways:
 
-- [Report issues](https://github.com/nulldreams/makkari/issues) and help us verify fixes as they are checked in.
-- Review the [source code changes](https://github.com/nulldreams/makkari/pulls).
+- [Report issues](https://github.com/tigdevs/makkari/issues) and help us verify fixes as they are checked in.
+- Review the [source code changes](https://github.com/tigdevs/makkari/pulls).
 - Contribute creating new database modules to Makkari.
 - Contribute bug fixes.
