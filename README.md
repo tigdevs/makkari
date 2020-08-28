@@ -31,7 +31,7 @@ const database = {
     user: 'postgres',
     password: 'postgres',
   },
-}
+}https://github.com/tigdevs/makkari#readme
 
 const makkari = new Makkari({ queries, database })
 
@@ -76,7 +76,7 @@ yarn test
 
 ## 🤝 Contributing
 
-You can contribute to Napa.js in following ways:
+You can contribute to Makkari in following ways:
 
 - [Report issues](https://github.com/tigdevs/makkari/issues) and help us verify fixes as they are checked in.
 - Review the [source code changes](https://github.com/tigdevs/makkari/pulls).
